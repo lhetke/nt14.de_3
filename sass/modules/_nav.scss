@@ -1,0 +1,47 @@
+
+
+nav {
+	background-color: $dark-gray;
+	overflow: hidden;
+	@include size(100% 4em);
+	-webkit-box-shadow: 0px -5px 40px 0px rgba(10, 10, 10, 0.53);
+	-moz-box-shadow:    0px -5px 40px 0px rgba(10, 10, 10, 0.53);
+	box-shadow:         0px -5px 40px 0px rgba(10, 10, 10, 0.53);
+	z-index: 1;
+
+	ul {
+		@include outer-container;
+	}
+
+	li {
+		float: left;
+		display: block;
+		text-align: center;
+		@include size(25% 4em);
+
+
+		a {
+			@include padding(0.5em 0 0.5em 0);
+			color: white;
+			font-size: $base-font-size * 1.6;
+			background-color: $dark-gray;
+			@include size(100% 100%);
+			display: block;
+			@include transition(.4s);
+
+		}
+
+		a:hover {
+			background-color: $light-gray;
+			color: $dark-gray;
+
+		}
+
+		.current {
+		background-color: white;
+		color: $dark-gray;
+		@include size(100% 100%);
+		pointer-events:none;
+		}
+	}
+}

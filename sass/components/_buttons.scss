@@ -1,0 +1,16 @@
+.menu {
+	background: none;
+	font-size: $base-font-size * 2.5;
+	position: absolute;
+	@include margin (0 -0.5em 0 -0.5em);
+}
+
+.menu:hover {
+	background: none;
+}
+
+@media screen and (max-width: 400px) {
+		.menu {
+			@include margin (-0.3em -1em 0 -1em);
+		}
+	}

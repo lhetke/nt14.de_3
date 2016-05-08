@@ -1,0 +1,51 @@
+.einleitung {
+	@include margin(8em 0 8em 0);
+
+}
+
+.news {
+
+	padding-right: 6em;
+
+	article {
+		@include margin(0 0 5em 0);
+	}
+
+	h1 {
+		@include margin(0 0 0.4em 0);
+	}
+	
+	p {
+		margin-bottom: 0.2em;
+		margin-top: 1.6em;
+	}
+
+
+	.artikelbilder {
+		@include padding (1em 4em 2em 0);
+
+		img {
+			@include span-columns(4);
+		}
+	}
+}
+
+.view {
+	@include margin(1em 0 0 0);
+	}
+
+.termine h4 {
+	font-size: $base-font-size * 1.1;
+}
+
+@media screen and (max-width: 550px) {
+	.einleitung {
+		@include margin(5em 0 7em 0);
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.news {
+		padding-right: 0em;
+	}
+}

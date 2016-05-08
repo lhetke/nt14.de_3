@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 324 324" enable-background="new 0 0 324 324" xml:space="preserve">
+<circle fill="#FFFFFF" cx="162" cy="162" r="162"/>
+<path fill="#1B1527" d="M114.5,215.8h-10.7l-55.1-69.3v69.3H31V105.6h13.2L97,170.8v-65.2h17.4V215.8z"/>
+<path fill="#00528A" d="M283,191.9v24h-23.7v-24h-47.7v-17.5l41.8-68.8H283v69.3h13.8v17H283z M259.3,125.4l-28.9,49.5h28.9V125.4z"
+	/>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="120" y="105.1" width="87" height="111">
+		
+			<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+		<feBlend  in="source" in2="back" mode="normal"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="120" y="105.1" width="87" height="111" id="SVGID_1_">
+	<g filter="url(#Adobe_OpacityMaskFilter)">
+		<path fill="#FFFFFF" d="M188,216.1v-79.2l1-1v-2.8h-3v-4h1.8c0.2-2-2.5-1.1-4.1-3c-1.6-1.9-1.7-7.2-2.5-9.7s-6.1-4.3-6.1-4.3v-4.6
+			l0.4-0.1c-0.1,0,0.7-0.5,0.3-1.7c-0.6-1.8-1.4-2.6-1.4-2.6h-3c0,0-1.1,0.8-1.8,2.6c-0.3,0.8,0,1.7,0.1,1.6l0.4,0.2v4.6
+			c0,0-5.2,1.7-6.1,4.2s-0.1,7.9-1.7,9.8c-1.6,1.9-5.2,1-5,3h1.8v4h-3v2.8l2,1v79.2H188z"/>
+	</g>
+</mask>
+<polygon mask="url(#SVGID_1_)" fill="#00528A" points="120,105.1 207,105.1 207,216.1 139,216.1 139,127.1 120,127.1 "/>
+<defs>
+	<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="120" y="105.1" width="52" height="111">
+		
+			<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+		<feBlend  in="source" in2="back" mode="normal"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="120" y="105.1" width="52" height="111" id="SVGID_2_">
+	<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+		<path fill="#FFFFFF" d="M188,216.1v-79.2l1-1v-2.8h-3v-4h1.8c0.2-2-2.5-1.1-4.1-3c-1.6-1.9-1.7-7.2-2.5-9.7s-6.1-4.3-6.1-4.3v-4.6
+			l0.4-0.1c-0.1,0,0.7-0.5,0.3-1.7c-0.6-1.8-1.4-2.6-1.4-2.6h-3c0,0-1.1,0.8-1.8,2.6c-0.3,0.8,0,1.7,0.1,1.6l0.4,0.2v4.6
+			c0,0-5.2,1.7-6.1,4.2s-0.1,7.9-1.7,9.8c-1.6,1.9-5.2,1-5,3h1.8v4h-3v2.8l2,1v79.2H188z"/>
+	</g>
+</mask>
+<polygon mask="url(#SVGID_2_)" fill="#1B1527" points="120,105.1 172,105.1 172,216.1 139,216.1 139,127.1 120,127.1 "/>
+<circle fill="#00528A" cx="173" cy="162" r="9"/>
+<rect x="158.5" y="200.6" fill="#FFFFFF" width="28.9" height="29.9"/>
+</svg>

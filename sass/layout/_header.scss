@@ -1,0 +1,17 @@
+.logo {
+	@include outer-container;
+
+	img {
+		@include span-columns(3);
+
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.logo img {
+
+		@include margin (3em null 3em null);
+		@include span-columns(4);
+		@include shift(4);
+	}
+}

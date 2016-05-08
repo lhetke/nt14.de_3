@@ -1,0 +1,80 @@
+@media screen and (min-width: 800px) {
+	.content {
+		@include outer-container;
+		@include padding (0 3em 0 3em);
+		@include row($direction: RTL);
+
+		.einleitung {
+			@include span-columns(12);
+
+		}
+
+		.news {
+			@include span-columns(8); 
+
+			.artikelbilder {
+				@include span-columns(12);
+			}
+		}
+
+
+		.termine {
+			@include span-columns(4);
+		}
+	}
+
+	//wer ist nt14
+
+	#kandidaten{
+	  @include outer-container;
+	}
+
+	#themenpunkte{
+	  @include outer-container;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+	.content {
+		@include outer-container;
+		@include padding (0 3em 0 3em);
+		@include reset-layout-direction;
+
+		.einleitung {
+			@include span-columns(12);
+
+		}
+
+		.news {
+			@include span-columns(12);
+
+			.artikelbilder {
+				@include span-columns(12);
+			}
+		}
+
+
+		.termine {
+			@include span-columns(12);
+			@include margin (-3em 0 4em 0);
+		}
+	}
+
+	//wer ist nt14
+
+	#kandidaten{
+	  @include outer-container;
+	}
+
+	#themenpunkte{
+	  @include outer-container;
+	}
+}
+
+@media screen and (max-width: 400px) {
+		.content{
+			font-size: $base-font-size / 1.2;
+			@include padding (0 1.5em 0 1.5em);
+		}
+	}

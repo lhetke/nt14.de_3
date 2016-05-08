@@ -1,0 +1,19 @@
+#parallax {
+	margin-bottom: 24em;
+
+	-webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.40);
+	-moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.40);
+	box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.40);
+}
+
+footer {
+	position:fixed;
+    bottom:0;
+    left:0;
+    height:24em;
+    z-index:-3;
+}
+
+.spacer {
+	height: 5em;
+}

@@ -1,0 +1,43 @@
+.themen {
+	@include span-columns (12);
+	@include padding(9em 0 3em 0);
+	width: 100%;
+}
+
+.einleitungthemen {
+	margin-bottom: 4em;
+}
+
+.accordion-tabs-minimal {
+	@include span-columns (12);
+}
+
+#themenpunkte {
+	@include span-columns (12);
+	@include padding(1em 0 4em 0);
+}
+
+
+.modalwas {
+
+	label {
+			@include span-columns(3.9);
+
+		    h1{
+		      @include margin(0.8em 0 0.8em 0);
+		      text-align: center;
+		      font-size: $base-font-size *1.5;
+		    }
+
+		    p{
+		      text-align: center;
+		      font-size: $base-font-size /1;
+		      font-weight: 500;
+		      @include padding(0 2em 0 2em);
+		    }
+
+		    span {
+		    	color: $nt14blue;
+		    }
+		}
+}

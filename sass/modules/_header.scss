@@ -1,0 +1,19 @@
+header {
+	@include background-image (
+		radial-gradient(circle cover at 50% 50%, #3d4f78, #283b54 32%,#26324d 56%,#1e273b 94%));
+	@include size (100% 100%);
+}
+
+.logo {
+		
+
+	img {
+		@include margin (0 auto 0 auto);
+		max-width: 100%;
+		height: auto;
+		@include margin (5% 20% 5% 38%);
+
+
+	}
+	
+}

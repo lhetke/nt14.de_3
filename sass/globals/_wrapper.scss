@@ -1,0 +1,14 @@
+body {
+	background-color: $dark-gray;
+}
+
+.wrapper {
+	background-color: white;
+	z-index: 5;
+	overflow: hidden;
+}
+
+.content {
+	overflow: hidden;
+	z-index: 5;
+}
