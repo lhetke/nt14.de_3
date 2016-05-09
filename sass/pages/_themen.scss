@@ -4,7 +4,56 @@
 
 
 
+.vertical-tabs {
+    display: none;
+    position: fixed;
 
+
+    @include media($medium-screen) {
+      right: 0;
+      display: inline;
+      text-align: right;
+      height: 100%;
+      width: 15em;
+      background-color: $dark-gray;
+      @include padding(0em 2em 5em 0);
+      -webkit-box-shadow: inset 41px 34px 50px -33px rgba(0,0,0,0.32);
+      -moz-box-shadow: inset 41px 34px 50px -33px rgba(0,0,0,0.32);
+      box-shadow: inset 41px 34px 50px -33px rgba(0,0,0,0.32);
+      overflow: scroll;
+      display: none;
+
+      
+
+      a:hover {
+      background-color: $light-gray;
+      color: $dark-gray;
+      -webkit-box-shadow: inset 45px 0px 50px -33px rgba(0,0,0,0.22);
+      -moz-box-shadow: inset 45px 0px 50px -33px rgba(0,0,0,0.22);
+      box-shadow: inset 45px 0px 50px -33px rgba(0,0,0,0.22);
+      }
+
+      .vertical-tab {
+    @include media($medium-screen) {
+      display: block;
+      color: white;
+      font-size: $base-font-size * 1.2;
+      @include padding(0.5em 2em 0.5em 0);
+      margin-right: -2em;
+
+
+
+      &.is-active {
+        background-color: white;
+        color: $dark-gray;
+        -webkit-box-shadow: inset 45px 0px 50px -33px rgba(0,0,0,0.22);
+        -moz-box-shadow: inset 45px 0px 50px -33px rgba(0,0,0,0.22);
+        box-shadow: inset 45px 0px 50px -33px rgba(0,0,0,0.22);
+      }
+      }
+      }
+    }
+  }
 
 
 .vertical-tabs-container {

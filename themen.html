@@ -13,19 +13,22 @@
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
-        
+
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div id="parallax">
+        <button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-            
-            <div class="side-menu" id="cd-nav">
-                <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
-                <div class="vertical-tabs" id="cd-main-nav">
+             
+                <div class="vertical-tabs navbar navbar-default navbar-offcanvas"  role="navigation" id="js-bootstrap-offcanvas">
                     <ul>
                         <li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab is-active" rel="tab1">Hochwasser</a></li>
                         <li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab2">Wirtschaft</a></li>
@@ -36,9 +39,15 @@
                         <li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab4">Wichtiger Punkt</a></li>
                     </ul>
                 </div>
-            </div>
 
-            <div class="cd-main-content">
+        <div id="parallax">
+
+                
+
+                
+            
+
+            <div class="site-wrap">
                 <button class="menu">&#9776;</button>
                 <header>
                     <div class="logo">
@@ -215,7 +224,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
+        
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
