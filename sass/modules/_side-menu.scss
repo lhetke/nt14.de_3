@@ -1,73 +1,78 @@
-@media (max-width: 767px) {
-  .offcanvas-stop-scrolling {
-    height: 100%;
-    overflow: hidden; }
-  .navbar-default .navbar-offcanvas {
-    background-color: #f8f8f8; }
-  .navbar-inverse .navbar-offcanvas {
-    background-color: #222; }
-  .navbar-offcanvas {
-    position: fixed;
-    width: 100%;
-    max-width: 250px;
-    left: -250px;
-    top: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    z-index: 999;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
-    -webkit-transition: all 0.15s ease-in;
-            transition: all 0.15s ease-in; }
-    .navbar-offcanvas.in {
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
-    .navbar-offcanvas.navbar-offcanvas-fade {
-      opacity: 0; }
-      .navbar-offcanvas.navbar-offcanvas-fade.in {
-        opacity: 1; }
-    .navbar-offcanvas.offcanvas-transform.in {
-      -webkit-transform: translateX(250px);
-          -ms-transform: translateX(250px);
-              transform: translateX(250px); }
-    .navbar-offcanvas.offcanvas-position.in {
-      left: 0; }
-    .navbar-offcanvas.navbar-offcanvas-right {
-      left: auto;
-      right: -250px; }
-      .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.in {
-        -webkit-transform: translateX(-250px);
-            -ms-transform: translateX(-250px);
-                transform: translateX(-250px); }
-      .navbar-offcanvas.navbar-offcanvas-right.offcanvas-position.in {
-        left: auto;
-        right: 0; }
-    .navbar-offcanvas .dropdown.active .caret {
-      border-top: 0;
-      border-bottom: 4px solid; }
-    .navbar-offcanvas .dropdown-menu {
-      position: relative;
-      width: 100%;
-      border: inherit;
-      box-shadow: none;
-      -webkit-transition: height 0.15s ease-in;
-              transition: height 0.15s ease-in; }
-      .navbar-offcanvas .dropdown-menu.shown {
-        display: block;
-        margin-bottom: 10px; } }
 
-.offcanvas-toggle {
-  background: #f8f8f8; }
-  .offcanvas-toggle .icon-bar {
-    background: #000;
-    -webkit-transition: all .25s ease-in-out;
-            transition: all .25s ease-in-out; }
-  .offcanvas-toggle.is-open .icon-bar:nth-child(1) {
-    -webkit-transform: rotate(45deg) translate(5px, 4px);
-        -ms-transform: rotate(45deg) translate(5px, 4px);
-            transform: rotate(45deg) translate(5px, 4px); }
-  .offcanvas-toggle.is-open .icon-bar:nth-child(2) {
-    opacity: 0; }
-  .offcanvas-toggle.is-open .icon-bar:nth-child(3) {
-    -webkit-transform: rotate(-45deg) translate(4px, -4px);
-        -ms-transform: rotate(-45deg) translate(4px, -4px);
-            transform: rotate(-45deg) translate(4px, -4px); }
+
+#slideout {
+    position: fixed;
+    cursor: pointer;
+    top: 50vh;
+    right: 0;
+    width: 60px;
+    height: 13em;
+    text-align: center;
+    background: $dark-gray;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+
+    #slideouttext {
+        color: white;
+        display: block;
+        @include padding(0em 0em 0em 0em);
+        @include margin(4em 0em 0em -2.2em);
+        -ms-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        width: 7em;
+        font-size: $base-font-size * 1.4;
+        
+    }
+}
+
+#slideout_inner {
+    position: fixed;
+    padding-left: 0;
+    top: 0;
+    right: -251px;
+    background: $dark-gray;
+    width: 251px;
+    height: 100%;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    text-align: left;
+    -webkit-box-shadow: inset 45px 0px 50px -33px rgba(0,0,0,0.22);
+    -moz-box-shadow: inset 45px 0px 50px -33px rgba(0,0,0,0.22);
+    box-shadow: inset 45px 0px 50px -33px rgba(0,0,0,0.22);
+    overflow-y: scroll;
+}
+
+#slideout_inner textarea {
+    width: 190px;
+    height: 100px;
+    margin-bottom: 6px;
+}
+
+#slideout:hover {
+    right: 250px;
+}
+
+#slideout:hover #slideout_inner {
+    right: 0;
+}
+
+input[type=checkbox]:checked + label {
+   #slideout {
+    right: 250px;
+    }
+    #slideout_inner {
+    right: 0;
+}
+
+}
+
+input[type=checkbox] {
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+   }

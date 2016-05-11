@@ -19,16 +19,12 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <button type="button" class="navbar-toggle offcanvas-toggle" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-             
-                <div class="vertical-tabs navbar navbar-default navbar-offcanvas"  role="navigation" id="js-bootstrap-offcanvas">
+        <div id="slideout">
+            <label id="slideouttext" for="toggle-1">Thema wählen</label>
+            <input type="checkbox" id="toggle-1">
+            <div id="slideout_inner">
+                        
+                <div class="vertical-tabs">
                     <ul>
                         <li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab is-active" rel="tab1">Hochwasser</a></li>
                         <li><a href="javascript:void(0)" class="js-vertical-tab vertical-tab" rel="tab2">Wirtschaft</a></li>
@@ -40,12 +36,10 @@
                     </ul>
                 </div>
 
+             </div>
+        </div>
+
         <div id="parallax">
-
-                
-
-                
-            
 
             <div class="site-wrap">
                 <button class="menu">&#9776;</button>
